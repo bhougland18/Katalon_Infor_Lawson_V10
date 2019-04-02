@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing" time="4" tests="0" failures="1" errors="0">
+   <testsuite name="Testing" tests="0" failures="1" errors="0" time="4" timestamp="2018-04-17 20:08:35" hostname="Benjamin - 10.3.128.205" id="Test Suites/Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180417_200833"/>
+         <property name="logFiles" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180417_200833\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180417_200833\\1524013720374.png"/>
+         <property name="hostName" value="Benjamin - 10.3.128.205"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.3.128.205"/>
+         <property name="sessionId" value="ddd848f4b2c595d156a6720caee9c09b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/playground/tester" classname="Test Cases/playground/tester" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)"/>
+         <system-out><![CDATA[2018-04-17 20:08:36 - [TEST_CASE][FAILED] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2018-04-17 20:08:36 - [TEST_STEP][FAILED] - mainS3.portal.login: Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2018-04-17 20:08:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-17 20:08:40 - [MESSAGE][FAILED] - Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+[[ATTACHMENT|C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180417_200833\\1524013720374.png]]
+
+2018-04-17 20:08:40 - [MESSAGE][FAILED] - Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-out>
+         <system-err><![CDATA[2018-04-17 20:08:36 - [TEST_CASE][FAILED] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-17 20:08:35 - [TEST_SUITE][FAILED] - Testing: Test Cases/playground/tester FAILED because (of) Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-out>
+      <system-err><![CDATA[2018-04-17 20:08:35 - [TEST_SUITE][FAILED] - Testing: Test Cases/playground/tester FAILED because (of) Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-err>
+   </testsuite>
+</testsuites>

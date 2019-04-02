@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testing,Chrome 65.0.3325.181,,2018-04-17 15:18:49,2018-04-17 15:19:31,42.413s,FAILED
+,,,,,,
+Test Cases/playground/tester,Chrome 65.0.3325.181,,2018-04-17 15:18:49,2018-04-17 15:19:31,41.883s,FAILED
+mainS3.portal.login,Chrome 65.0.3325.181,,2018-04-17 15:18:50,2018-04-17 15:18:57,7.642s,PASSED
+mainS3.portal.goToForm,Chrome 65.0.3325.181,,2018-04-17 15:18:57,2018-04-17 15:18:59,2.023s,PASSED
+switchToFrame,Chrome 65.0.3325.181,,2018-04-17 15:18:59,2018-04-17 15:18:59,0.003s,NOT_RUN
+mainS3.form.fieldLocator,Chrome 65.0.3325.181,,2018-04-17 15:18:59,2018-04-17 15:19:31,31.760s,FAILED

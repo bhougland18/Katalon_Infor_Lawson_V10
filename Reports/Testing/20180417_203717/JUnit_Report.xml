@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing" time="112" tests="0" failures="1" errors="0">
+   <testsuite name="Testing" tests="0" failures="1" errors="0" time="112" timestamp="2018-04-17 20:37:20" hostname="Benjamin - 10.3.128.205" id="Test Suites/Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180417_203717"/>
+         <property name="logFiles" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180417_203717\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180417_203717\\1524015552756.png"/>
+         <property name="hostName" value="Benjamin - 10.3.128.205"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.3.128.205"/>
+         <property name="sessionId" value="e2eb47e6966c1166090ca9e11e15d59f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/playground/tester" classname="Test Cases/playground/tester" status="FAILED">
+         <failure type="FAILED" message="Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/iframe_content' located by 'By.xpath: //iframe[@id = 'content']' not found)"/>
+         <system-out><![CDATA[2018-04-17 20:37:20 - [TEST_CASE][FAILED] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/iframe_content' located by 'By.xpath: //iframe[@id = 'content']' not found)
+
+2018-04-17 20:37:21 - [TEST_STEP][PASSED] - mainS3.portal.login: mainS3.portal.login is PASSED
+
+2018-04-17 20:37:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-17 20:37:32 - [MESSAGE][PASSED] - Navigate to 'http://bdlawlsf1.us.chs.net/lawson/portal/' successfully
+
+2018-04-17 20:37:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-17 20:37:34 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/1_Login/input__ssoUser' is visible
+
+2018-04-17 20:37:35 - [MESSAGE][PASSED] - Keys 'bhouglan' sent to object: 'Object Repository/mainS3/1_Login/input__ssoUser'
+
+2018-04-17 20:37:35 - [MESSAGE][PASSED] - Keys 'Ze18gna18$$$' sent to object: 'Object Repository/mainS3/1_Login/input__ssoPass'
+
+2018-04-17 20:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/1_Login/button_Login' is clicked on
+
+2018-04-17 20:37:35 - [MESSAGE][PASSED] - mainS3.portal.login is PASSED
+
+2018-04-17 20:37:35 - [TEST_STEP][PASSED] - mainS3.portal.goToForm: mainS3.portal.goToForm is PASSED
+
+2018-04-17 20:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/2_portal/input_findText' is visible
+
+2018-04-17 20:38:10 - [MESSAGE][PASSED] - Keys 'IC11.1' sent to object: 'Object Repository/mainS3/2_portal/input_findText'
+
+2018-04-17 20:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/2_portal/button_LAWMENUBTNSEARCH' is clicked on
+
+2018-04-17 20:38:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-17 20:38:41 - [MESSAGE][PASSED] - mainS3.portal.goToForm is PASSED
+
+2018-04-17 20:38:41 - [TEST_STEP][NOT_RUN] - switchToFrame: NOT_RUN: switchToFrame
+
+2018-04-17 20:38:41 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToFrame
+
+2018-04-17 20:38:41 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-17 20:38:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-17 20:38:41 - [TEST_STEP][NOT_RUN] - mainS3.form.fieldLocator: NOT_RUN: mainS3.form.fieldLocator
+
+2018-04-17 20:38:41 - [MESSAGE][NOT_RUN] - NOT_RUN: mainS3.form.fieldLocator
+
+2018-04-17 20:38:41 - [TEST_STEP][NOT_RUN] - verifyElementAttributeValue: NOT_RUN: verifyElementAttributeValue
+
+2018-04-17 20:38:41 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementAttributeValue
+
+2018-04-17 20:38:41 - [TEST_STEP][FAILED] - mainS3.form.populateHeaderFields: Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/iframe_content' located by 'By.xpath: //iframe[@id = 'content']' not found)
+
+2018-04-17 20:39:13 - [MESSAGE][FAILED] - Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/iframe_content' located by 'By.xpath: //iframe[@id = 'content']' not found)
+[[ATTACHMENT|C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180417_203717\\1524015552756.png]]
+
+2018-04-17 20:39:13 - [MESSAGE][FAILED] - Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/iframe_content' located by 'By.xpath: //iframe[@id = 'content']' not found)]]></system-out>
+         <system-err><![CDATA[2018-04-17 20:37:20 - [TEST_CASE][FAILED] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/iframe_content' located by 'By.xpath: //iframe[@id = 'content']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-17 20:37:20 - [TEST_SUITE][FAILED] - Testing: Test Cases/playground/tester FAILED because (of) Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/iframe_content' located by 'By.xpath: //iframe[@id = 'content']' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-17 20:37:20 - [TEST_SUITE][FAILED] - Testing: Test Cases/playground/tester FAILED because (of) Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/iframe_content' located by 'By.xpath: //iframe[@id = 'content']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

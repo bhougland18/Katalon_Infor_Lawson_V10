@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing" time="84" tests="0" failures="1" errors="0">
+   <testsuite name="Testing" tests="0" failures="1" errors="0" time="84" timestamp="2018-04-16 22:30:39" hostname="Benjamin - 10.3.128.205" id="Test Suites/Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_223034"/>
+         <property name="logFiles" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_223034\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_223034\\1523935923572.png"/>
+         <property name="hostName" value="Benjamin - 10.3.128.205"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.3.128.205"/>
+         <property name="sessionId" value="5e8c28ac552ce98c49d983d5022d0e5a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/playground/tester" classname="Test Cases/playground/tester" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/mainS3/3_Forms/v_tab_button_select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_tab_button_select' located by 'By.xpath: //a[@id = (&quot;DT0BTN&quot;) ]' not found)"/>
+         <system-out><![CDATA[2018-04-16 22:30:40 - [TEST_CASE][FAILED] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) Unable to click on object 'Object Repository/mainS3/3_Forms/v_tab_button_select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_tab_button_select' located by 'By.xpath: //a[@id = ("DT0BTN") ]' not found)
+
+2018-04-16 22:30:40 - [TEST_STEP][PASSED] - mainS3.portal.login: mainS3.portal.login is PASSED
+
+2018-04-16 22:30:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-16 22:30:52 - [MESSAGE][PASSED] - Navigate to 'http://bdlawlsf1.us.chs.net/lawson/portal/index.htm' successfully
+
+2018-04-16 22:30:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 22:30:55 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/1_Login/input__ssoUser' is visible
+
+2018-04-16 22:30:55 - [MESSAGE][PASSED] - Keys 'bhouglan' sent to object: 'Object Repository/mainS3/1_Login/input__ssoUser'
+
+2018-04-16 22:30:55 - [MESSAGE][PASSED] - Keys 'Ze18gna18$$$' sent to object: 'Object Repository/mainS3/1_Login/input__ssoPass'
+
+2018-04-16 22:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/1_Login/button_Login' is clicked on
+
+2018-04-16 22:30:56 - [MESSAGE][PASSED] - mainS3.portal.login is PASSED
+
+2018-04-16 22:30:56 - [TEST_STEP][PASSED] - mainS3.portal.goToForm: mainS3.portal.goToForm is PASSED
+
+2018-04-16 22:30:58 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/2_portal/input_findText' is visible
+
+2018-04-16 22:30:58 - [MESSAGE][PASSED] - Keys 'ZI11.1' sent to object: 'Object Repository/mainS3/2_portal/input_findText'
+
+2018-04-16 22:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/2_portal/button_LAWMENUBTNSEARCH' is clicked on
+
+2018-04-16 22:30:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 22:30:59 - [MESSAGE][PASSED] - mainS3.portal.goToForm is PASSED
+
+2018-04-16 22:30:59 - [TEST_STEP][NOT_RUN] - mainS3.form.populateHeaderFields: NOT_RUN: mainS3.form.populateHeaderFields
+
+2018-04-16 22:30:59 - [MESSAGE][NOT_RUN] - NOT_RUN: mainS3.form.populateHeaderFields
+
+2018-04-16 22:30:59 - [TEST_STEP][FAILED] - mainS3.form.populateLineFields: Unable to click on object 'Object Repository/mainS3/3_Forms/v_tab_button_select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_tab_button_select' located by 'By.xpath: //a[@id = ("DT0BTN") ]' not found)
+
+2018-04-16 22:31:30 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField'
+
+2018-04-16 22:31:30 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f97r0'
+
+2018-04-16 22:31:31 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-4'
+
+2018-04-16 22:31:31 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField inforTextbox'
+
+2018-04-16 22:31:31 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f16r0'
+
+2018-04-16 22:31:31 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-0'
+
+2018-04-16 22:31:31 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforDropDownList'
+
+2018-04-16 22:31:31 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f9r0'
+
+2018-04-16 22:31:31 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'DT0'
+
+2018-04-16 22:32:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/mainS3/3_Forms/v_tab_button_select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_tab_button_select' located by 'By.xpath: //a[@id = ("DT0BTN") ]' not found)
+[[ATTACHMENT|C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_223034\\1523935923572.png]]
+
+2018-04-16 22:32:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/mainS3/3_Forms/v_tab_button_select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_tab_button_select' located by 'By.xpath: //a[@id = ("DT0BTN") ]' not found)]]></system-out>
+         <system-err><![CDATA[2018-04-16 22:30:40 - [TEST_CASE][FAILED] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) Unable to click on object 'Object Repository/mainS3/3_Forms/v_tab_button_select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_tab_button_select' located by 'By.xpath: //a[@id = ("DT0BTN") ]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-16 22:30:39 - [TEST_SUITE][FAILED] - Testing: Test Cases/playground/tester FAILED because (of) Unable to click on object 'Object Repository/mainS3/3_Forms/v_tab_button_select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_tab_button_select' located by 'By.xpath: //a[@id = ("DT0BTN") ]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-16 22:30:39 - [TEST_SUITE][FAILED] - Testing: Test Cases/playground/tester FAILED because (of) Unable to click on object 'Object Repository/mainS3/3_Forms/v_tab_button_select' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_tab_button_select' located by 'By.xpath: //a[@id = ("DT0BTN") ]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

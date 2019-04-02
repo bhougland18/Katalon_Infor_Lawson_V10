@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Item Add Automation,Chrome 73.0.3683.86,Custom Automation,2019-04-01 15:28:52,2019-04-01 15:29:12,20.408s,FAILED
+,,,,,,
+Test Cases/Custom Automations/ZI11-Add,Chrome 73.0.3683.86,Add item to ZI11,2019-04-01 15:28:52,2019-04-01 15:29:12,19.917s,FAILED
+"mainS3.portal.login(G_url, G_username, G_password, 0)",Chrome 73.0.3683.86,Login to Infor/Lawson - environment based upon url,2019-04-01 15:28:54,2019-04-01 15:29:10,16.371s,FAILED

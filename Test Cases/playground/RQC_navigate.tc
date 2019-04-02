@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RQC_navigate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2ed88c9-1507-4ab7-8958-0e18845a54de</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4c8cc27e-e679-495f-be59-6cc3b6779333</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

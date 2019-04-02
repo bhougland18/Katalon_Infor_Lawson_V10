@@ -1,0 +1,16 @@
+1
+00:00:00,473 --> 00:00:00,476
+3. Login to Infor/Lawson - environment based upon url
+
+2
+00:00:19,939 --> 00:00:19,942
+9. Navigate to S3 form ${token}
+
+3
+00:00:22,714 --> 00:00:22,715
+15. Populate line fields with values
+
+4
+00:00:42,375 --> 00:00:42,375
+21. Add new record
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing" time="15" tests="0" failures="0" errors="1">
+   <testsuite name="Testing" tests="0" failures="0" errors="1" time="15" timestamp="2018-04-16 20:38:26" hostname="Benjamin - 10.3.128.205" id="Test Suites/Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_203824"/>
+         <property name="logFiles" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_203824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Benjamin - 10.3.128.205"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.3.128.205"/>
+         <property name="sessionId" value="b53e6cd09da8a4d4f2b856ffa81e92d7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/playground/tester" classname="Test Cases/playground/tester" status="ERROR">
+         <error type="ERROR" message="Test Cases/playground/tester FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: mainS3.form.fieldLocator() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ITE-INVEN-MINCL , 1]
+Possible solutions: fieldLocator(java.lang.String), fieldLocator(java.lang.String, java.lang.String), fieldLocator(java.lang.String, java.lang.String, int), fieldSorter(java.util.Map, int)"/>
+         <system-out><![CDATA[2018-04-16 20:38:27 - [TEST_CASE][ERROR] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: mainS3.form.fieldLocator() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ITE-INVEN-MINCL , 1]
+Possible solutions: fieldLocator(java.lang.String), fieldLocator(java.lang.String, java.lang.String), fieldLocator(java.lang.String, java.lang.String, int), fieldSorter(java.util.Map, int)
+
+2018-04-16 20:38:27 - [TEST_STEP][PASSED] - mainS3.portal.login: mainS3.portal.login is PASSED
+
+2018-04-16 20:38:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-16 20:38:34 - [MESSAGE][PASSED] - Navigate to 'http://bdlawlsf1.us.chs.net/lawson/portal/index.htm' successfully
+
+2018-04-16 20:38:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 20:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/1_Login/input__ssoUser' is visible
+
+2018-04-16 20:38:37 - [MESSAGE][PASSED] - Keys 'bhouglan' sent to object: 'Object Repository/mainS3/1_Login/input__ssoUser'
+
+2018-04-16 20:38:37 - [MESSAGE][PASSED] - Keys 'Ze18gna18$$$' sent to object: 'Object Repository/mainS3/1_Login/input__ssoPass'
+
+2018-04-16 20:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/1_Login/button_Login' is clicked on
+
+2018-04-16 20:38:38 - [MESSAGE][PASSED] - mainS3.portal.login is PASSED
+
+2018-04-16 20:38:38 - [TEST_STEP][PASSED] - mainS3.portal.goToForm: mainS3.portal.goToForm is PASSED
+
+2018-04-16 20:38:40 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/2_portal/input_findText' is visible
+
+2018-04-16 20:38:41 - [MESSAGE][PASSED] - Keys 'IC11.1' sent to object: 'Object Repository/mainS3/2_portal/input_findText'
+
+2018-04-16 20:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/2_portal/button_LAWMENUBTNSEARCH' is clicked on
+
+2018-04-16 20:38:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 20:38:41 - [MESSAGE][PASSED] - mainS3.portal.goToForm is PASSED
+
+2018-04-16 20:38:41 - [TEST_STEP][ERROR] - mainS3.form.populateHeaderFields: groovy.lang.MissingMethodException: No signature of method: mainS3.form.fieldLocator() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ITE-INVEN-MINCL , 1]
+Possible solutions: fieldLocator(java.lang.String), fieldLocator(java.lang.String, java.lang.String), fieldLocator(java.lang.String, java.lang.String, int), fieldSorter(java.util.Map, int)
+
+2018-04-16 20:38:41 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: mainS3.form.fieldLocator() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ITE-INVEN-MINCL , 1]
+Possible solutions: fieldLocator(java.lang.String), fieldLocator(java.lang.String, java.lang.String), fieldLocator(java.lang.String, java.lang.String, int), fieldSorter(java.util.Map, int)]]></system-out>
+         <system-err><![CDATA[2018-04-16 20:38:27 - [TEST_CASE][ERROR] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: mainS3.form.fieldLocator() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ITE-INVEN-MINCL , 1]
+Possible solutions: fieldLocator(java.lang.String), fieldLocator(java.lang.String, java.lang.String), fieldLocator(java.lang.String, java.lang.String, int), fieldSorter(java.util.Map, int)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-16 20:38:26 - [TEST_SUITE][ERROR] - Testing: Test Cases/playground/tester FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: mainS3.form.fieldLocator() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ITE-INVEN-MINCL , 1]
+Possible solutions: fieldLocator(java.lang.String), fieldLocator(java.lang.String, java.lang.String), fieldLocator(java.lang.String, java.lang.String, int), fieldSorter(java.util.Map, int)]]></system-out>
+      <system-err><![CDATA[2018-04-16 20:38:26 - [TEST_SUITE][ERROR] - Testing: Test Cases/playground/tester FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: mainS3.form.fieldLocator() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ITE-INVEN-MINCL , 1]
+Possible solutions: fieldLocator(java.lang.String), fieldLocator(java.lang.String, java.lang.String), fieldLocator(java.lang.String, java.lang.String, int), fieldSorter(java.util.Map, int)]]></system-err>
+   </testsuite>
+</testsuites>

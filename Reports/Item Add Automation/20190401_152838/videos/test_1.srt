@@ -1,0 +1,4 @@
+1
+00:00:00,714 --> 00:00:00,723
+3. Login to Infor/Lawson - environment based upon url
+

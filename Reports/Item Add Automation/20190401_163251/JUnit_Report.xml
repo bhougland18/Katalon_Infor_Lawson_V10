@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Item Add Automation" time="75" tests="0" failures="1" errors="0">
+   <testsuite name="Item Add Automation" tests="0" failures="1" errors="0" time="75" timestamp="2019-04-01 16:32:54" hostname="benja - 10.3.136.114" id="Test Suites/Item Add Automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251"/>
+         <property name="logFiles" value="E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\execution0.log"/>
+         <property name="attachments" value="E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150807664.png, E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150809408.png, E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150811504.png, E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150812951.png, E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150814349.png, E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150815097.png, E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150846615.png"/>
+         <property name="hostName" value="benja - 10.3.136.114"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.3.136.114"/>
+         <property name="sessionId" value="7bb64506016a57f7e20b34d19cde78c0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Custom Automations/ZI11-Add" classname="Test Cases/Custom Automations/ZI11-Add" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Custom Automations/ZI11-Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at ZI11-Add.run(ZI11-Add:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554150771213.run(TempTestSuite1554150771213.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_toolbar_action' located by 'By.xpath: //*[@id = (&quot;LAWTBBUTTONtbBtn&quot;)]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1531252600639.run(Script1531252600639.groovy:42)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-01 16:32:54 - [TEST_CASE][FAILED] - Test Cases/Custom Automations/ZI11-Add: Test Cases/Custom Automations/ZI11-Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at ZI11-Add.run(ZI11-Add:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554150771213.run(TempTestSuite1554150771213.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_toolbar_action' located by 'By.xpath: //*[@id = ("LAWTBBUTTONtbBtn")]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1531252600639.run(Script1531252600639.groovy:42)
+	... 13 more
+
+
+2019-04-01 16:32:55 - [TEST_STEP][PASSED] - mainS3.portal.login_w_errors("http://btlawlsf.us.chs.net/lawson/portal/index.htm", "bhouglan", "Ze18gna19*", 2): mainS3.portal.login_w_errors is PASSED
+
+2019-04-01 16:32:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 16:32:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-01 16:33:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://btlawlsf.us.chs.net/lawson/portal/index.htm'
+
+2019-04-01 16:33:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-01 16:33:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-01 16:33:06 - [MESSAGE][PASSED] - Current window's title is: 'Infor Sign In Dialog'
+
+2019-04-01 16:33:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-01 16:33:08 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/1_Login/input__ssoUser' is visible
+
+2019-04-01 16:33:09 - [MESSAGE][PASSED] - Keys 'bhouglan' sent to object: 'Object Repository/mainS3/1_Login/input__ssoUser'
+
+2019-04-01 16:33:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/mainS3/1_Login/input__ssoUser' is cleared
+
+2019-04-01 16:33:09 - [MESSAGE][PASSED] - Keys 'bhouglan' sent to object: 'Object Repository/mainS3/1_Login/input__ssoUser'
+
+2019-04-01 16:33:09 - [MESSAGE][PASSED] - Keys 'Ze18gna19*' sent to object: 'Object Repository/mainS3/1_Login/input__ssoPass'
+
+2019-04-01 16:33:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/mainS3/1_Login/input__ssoPass' is cleared
+
+2019-04-01 16:33:09 - [MESSAGE][PASSED] - Keys 'Ze18gna19*' sent to object: 'Object Repository/mainS3/1_Login/input__ssoPass'
+
+2019-04-01 16:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/1_Login/button_Login' is clicked on
+
+2019-04-01 16:33:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-01 16:33:20 - [MESSAGE][PASSED] - Alert is present after 10 second(s).
+
+2019-04-01 16:33:20 - [MESSAGE][PASSED] - Alert accepted
+
+2019-04-01 16:33:20 - [MESSAGE][PASSED] - Alert is present after 10 second(s).
+
+2019-04-01 16:33:20 - [MESSAGE][PASSED] - Alert accepted
+
+2019-04-01 16:33:20 - [MESSAGE][PASSED] - mainS3.portal.login_w_errors is PASSED
+
+2019-04-01 16:33:20 - [TEST_STEP][PASSED] - mainS3.portal.goToForm(token): mainS3.portal.goToForm is PASSED
+
+2019-04-01 16:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/2_portal/input_findText' is visible
+
+2019-04-01 16:33:21 - [MESSAGE][PASSED] - Keys 'ZI11.1' sent to object: 'Object Repository/mainS3/2_portal/input_findText'
+
+2019-04-01 16:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/2_portal/button_LAWMENUBTNSEARCH' is clicked on
+
+2019-04-01 16:33:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-01 16:33:23 - [MESSAGE][PASSED] - mainS3.portal.goToForm is PASSED
+
+2019-04-01 16:33:23 - [TEST_STEP][PASSED] - mainS3.form.populateLineFields("1", ["ZIL-SRC-UOM-CONV":"5", "ZIL-SRC-UOM":"BX", "ZIL-STOCK-UOM":"EA", "ZIL-VEN-PRICE-AMT":"50", "ZIL-BUY-UOM-CONV":"10", "ZIL-BUY-UOM":"CA", ... ], "YES"): mainS3.form.populateLineFields is PASSED
+
+2019-04-01 16:33:23 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforTextbox'
+
+2019-04-01 16:33:23 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f98r0'
+
+2019-04-01 16:33:23 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-4'
+
+2019-04-01 16:33:23 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField'
+
+2019-04-01 16:33:23 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f97r0'
+
+2019-04-01 16:33:23 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-4'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f94r0'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-4'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforTextbox'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f34r0'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-1'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforTextbox'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f33r0'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-1'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f32r0'
+
+2019-04-01 16:33:24 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-1'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField inforTextbox'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f16r0'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-0'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f27r0'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-1'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f25r0'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-1'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforTextbox'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f22r0'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-0'
+
+2019-04-01 16:33:25 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforTextbox'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f21r0'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-0'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField inforTextbox'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f20r0'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-0'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforTextbox'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f12r0'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'DT0'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforDropDownList'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f9r0'
+
+2019-04-01 16:33:26 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'DT0'
+
+2019-04-01 16:33:27 - [MESSAGE][PASSED] - Keys 'Katalon-test' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:27 - [MESSAGE][PASSED] - Keys 'A - Add' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150807664.png]]
+
+2019-04-01 16:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/3_Forms/v_tab_button_select' is clicked on
+
+2019-04-01 16:33:28 - [MESSAGE][PASSED] - Keys '1489' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:28 - [MESSAGE][PASSED] - Keys '12149LA' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:29 - [MESSAGE][PASSED] - Keys 'DENT' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:29 - [MESSAGE][PASSED] - Keys '3M' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150809408.png]]
+
+2019-04-01 16:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/3_Forms/v_tab_button_select' is clicked on
+
+2019-04-01 16:33:30 - [MESSAGE][PASSED] - Keys '50' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:30 - [MESSAGE][PASSED] - Keys '10' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:30 - [MESSAGE][PASSED] - Keys 'CA' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:31 - [MESSAGE][PASSED] - Keys '12149LA' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:31 - [MESSAGE][PASSED] - Keys '1001230' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150811504.png]]
+
+2019-04-01 16:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/3_Forms/v_tab_button_select' is clicked on
+
+2019-04-01 16:33:32 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:32 - [MESSAGE][PASSED] - Keys 'BX' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:32 - [MESSAGE][PASSED] - Keys 'EA' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2019-04-01 16:33:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150812951.png]]
+
+2019-04-01 16:33:33 - [MESSAGE][PASSED] - mainS3.form.populateLineFields is PASSED
+
+2019-04-01 16:33:33 - [TEST_STEP][PASSED] - mainS3.form.formActionWithStatus("A"): mainS3.form.formActionWithStatus is PASSED
+
+2019-04-01 16:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/3_Forms/v_toolbar_action' is clicked on
+
+2019-04-01 16:33:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-01 16:33:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/mainS3/3_Forms/v_status_message' is: 'Add Complete - Continue(bhouglan, 2)'
+
+2019-04-01 16:33:34 - [MESSAGE][INFO] - values are: HI, Add Complete - Continue(bhouglan, 2)
+
+2019-04-01 16:33:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150814349.png]]
+
+2019-04-01 16:33:35 - [MESSAGE][PASSED] - mainS3.form.formActionWithStatus is PASSED
+
+2019-04-01 16:33:35 - [TEST_STEP][PASSED] - mainS3.form.validateStatusMessage("Add Complete - Continue"): mainS3.form.validateStatusMessage is PASSED
+
+2019-04-01 16:33:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/mainS3/3_Forms/v_status_message' is: 'Add Complete - Continue(bhouglan, 2)'
+
+2019-04-01 16:33:35 - [MESSAGE][INFO] - Status Message equals expected value of: Add Complete - Continue
+
+2019-04-01 16:33:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150815097.png]]
+
+2019-04-01 16:33:35 - [MESSAGE][PASSED] - mainS3.form.validateStatusMessage is PASSED
+
+2019-04-01 16:33:35 - [TEST_STEP][NOT_RUN] - takeScreenshot("C:\Users\Benjamin\Pictures\katalon\IC11_TEST1.png"): NOT_RUN: takeScreenshot("C:\Users\Benjamin\Pictures\katalon\IC11_TEST1.png")
+
+2019-04-01 16:33:35 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot("C:\Users\Benjamin\Pictures\katalon\IC11_TEST1.png")
+
+2019-04-01 16:33:35 - [TEST_STEP][FAILED] - mainS3.form.formActionWithStatus("", ""): mainS3.form.formActionWithStatus("", "") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at ZI11-Add.run(ZI11-Add:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554150771213.run(TempTestSuite1554150771213.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_toolbar_action' located by 'By.xpath: //*[@id = ("LAWTBBUTTONtbBtn")]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1531252600639.run(Script1531252600639.groovy:42)
+	... 13 more
+
+
+2019-04-01 16:34:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = ("LAWTBBUTTONtbBtn")]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-01 16:34:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at ZI11-Add.run(ZI11-Add:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554150771213.run(TempTestSuite1554150771213.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_toolbar_action' located by 'By.xpath: //*[@id = ("LAWTBBUTTONtbBtn")]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1531252600639.run(Script1531252600639.groovy:42)
+	... 13 more
+)
+[[ATTACHMENT|E:\\2018_9_6_backup\\Katalon Studio\\Infor_LawsonV10\\Reports\\Item Add Automation\\20190401_163251\\1554150846615.png]]
+
+2019-04-01 16:34:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action'
+
+2019-04-01 16:34:07 - [MESSAGE][FAILED] - mainS3.form.formActionWithStatus("", "") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at ZI11-Add.run(ZI11-Add:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554150771213.run(TempTestSuite1554150771213.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_toolbar_action' located by 'By.xpath: //*[@id = ("LAWTBBUTTONtbBtn")]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1531252600639.run(Script1531252600639.groovy:42)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-01 16:32:54 - [TEST_CASE][FAILED] - Test Cases/Custom Automations/ZI11-Add: Test Cases/Custom Automations/ZI11-Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at ZI11-Add.run(ZI11-Add:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554150771213.run(TempTestSuite1554150771213.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_toolbar_action' located by 'By.xpath: //*[@id = ("LAWTBBUTTONtbBtn")]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1531252600639.run(Script1531252600639.groovy:42)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 16:32:54 - [TEST_SUITE][FAILED] - Item Add Automation: Test Cases/Custom Automations/ZI11-Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at ZI11-Add.run(ZI11-Add:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554150771213.run(TempTestSuite1554150771213.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_toolbar_action' located by 'By.xpath: //*[@id = ("LAWTBBUTTONtbBtn")]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1531252600639.run(Script1531252600639.groovy:42)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-01 16:32:54 - [TEST_SUITE][FAILED] - Item Add Automation: Test Cases/Custom Automations/ZI11-Add FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mainS3/3_Forms/v_toolbar_action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at ZI11-Add.run(ZI11-Add:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554150771213.run(TempTestSuite1554150771213.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_toolbar_action' located by 'By.xpath: //*[@id = ("LAWTBBUTTONtbBtn")]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1053)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at mainS3.form.formActionWithStatus(form.groovy:109)
+	at mainS3.form.invokeMethod(form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1531252600639.run(Script1531252600639.groovy:42)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

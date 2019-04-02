@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing" time="82" tests="0" failures="1" errors="0">
+   <testsuite name="Testing" tests="0" failures="1" errors="0" time="82" timestamp="2018-04-16 22:53:20" hostname="Benjamin - 10.3.128.205" id="Test Suites/Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_225316"/>
+         <property name="logFiles" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_225316\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_225316\\1523937283097.png"/>
+         <property name="hostName" value="Benjamin - 10.3.128.205"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.3.128.205"/>
+         <property name="sessionId" value="024c3718413442702093457abd70624e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/playground/tester" classname="Test Cases/playground/tester" status="FAILED">
+         <failure type="FAILED" message="Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_main_field_selector' located by 'By.xpath: (//*[@nm= &quot;ZIL-SRC-UOM&quot; and @class != &quot;inforDataLabel&quot;])[1]' not found)"/>
+         <system-out><![CDATA[2018-04-16 22:53:21 - [TEST_CASE][FAILED] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_main_field_selector' located by 'By.xpath: (//*[@nm= "ZIL-SRC-UOM" and @class != "inforDataLabel"])[1]' not found)
+
+2018-04-16 22:53:21 - [TEST_STEP][PASSED] - mainS3.portal.login: mainS3.portal.login is PASSED
+
+2018-04-16 22:53:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-16 22:53:30 - [MESSAGE][PASSED] - Navigate to 'http://bdlawlsf1.us.chs.net/lawson/portal/index.htm' successfully
+
+2018-04-16 22:53:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 22:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/1_Login/input__ssoUser' is visible
+
+2018-04-16 22:53:36 - [MESSAGE][PASSED] - Keys 'bhouglan' sent to object: 'Object Repository/mainS3/1_Login/input__ssoUser'
+
+2018-04-16 22:53:36 - [MESSAGE][PASSED] - Keys 'Ze18gna18$$$' sent to object: 'Object Repository/mainS3/1_Login/input__ssoPass'
+
+2018-04-16 22:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/1_Login/button_Login' is clicked on
+
+2018-04-16 22:53:37 - [MESSAGE][PASSED] - mainS3.portal.login is PASSED
+
+2018-04-16 22:53:37 - [TEST_STEP][PASSED] - mainS3.portal.goToForm: mainS3.portal.goToForm is PASSED
+
+2018-04-16 22:53:40 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/2_portal/input_findText' is visible
+
+2018-04-16 22:53:40 - [MESSAGE][PASSED] - Keys 'ZI11.1' sent to object: 'Object Repository/mainS3/2_portal/input_findText'
+
+2018-04-16 22:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/2_portal/button_LAWMENUBTNSEARCH' is clicked on
+
+2018-04-16 22:53:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 22:53:40 - [MESSAGE][PASSED] - mainS3.portal.goToForm is PASSED
+
+2018-04-16 22:53:40 - [TEST_STEP][NOT_RUN] - mainS3.form.populateHeaderFields: NOT_RUN: mainS3.form.populateHeaderFields
+
+2018-04-16 22:53:40 - [MESSAGE][NOT_RUN] - NOT_RUN: mainS3.form.populateHeaderFields
+
+2018-04-16 22:53:40 - [TEST_STEP][FAILED] - mainS3.form.populateLineFields: Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_main_field_selector' located by 'By.xpath: (//*[@nm= "ZIL-SRC-UOM" and @class != "inforDataLabel"])[1]' not found)
+
+2018-04-16 22:54:43 - [MESSAGE][FAILED] - Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_main_field_selector' located by 'By.xpath: (//*[@nm= "ZIL-SRC-UOM" and @class != "inforDataLabel"])[1]' not found)
+[[ATTACHMENT|C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_225316\\1523937283097.png]]
+
+2018-04-16 22:54:43 - [MESSAGE][FAILED] - Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_main_field_selector' located by 'By.xpath: (//*[@nm= "ZIL-SRC-UOM" and @class != "inforDataLabel"])[1]' not found)]]></system-out>
+         <system-err><![CDATA[2018-04-16 22:53:21 - [TEST_CASE][FAILED] - Test Cases/playground/tester: Test Cases/playground/tester FAILED because (of) Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_main_field_selector' located by 'By.xpath: (//*[@nm= "ZIL-SRC-UOM" and @class != "inforDataLabel"])[1]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-16 22:53:20 - [TEST_SUITE][FAILED] - Testing: Test Cases/playground/tester FAILED because (of) Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_main_field_selector' located by 'By.xpath: (//*[@nm= "ZIL-SRC-UOM" and @class != "inforDataLabel"])[1]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-16 22:53:20 - [TEST_SUITE][FAILED] - Testing: Test Cases/playground/tester FAILED because (of) Unable to get attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mainS3/3_Forms/v_main_field_selector' located by 'By.xpath: (//*[@nm= "ZIL-SRC-UOM" and @class != "inforDataLabel"])[1]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

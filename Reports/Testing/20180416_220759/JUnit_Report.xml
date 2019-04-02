@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing" time="52" tests="1" failures="0" errors="0">
+   <testsuite name="Testing" tests="1" failures="0" errors="0" time="52" timestamp="2018-04-16 22:08:03" hostname="Benjamin - 10.3.128.205" id="Test Suites/Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_220759"/>
+         <property name="logFiles" value="C:\\Users\\Benjamin\\Katalon Studio\\Infor_LawsonV10\\Reports\\Testing\\20180416_220759\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Benjamin - 10.3.128.205"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.3.128.205"/>
+         <property name="sessionId" value="662d3305cc18763930083f48036c1bbd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/playground/tester" classname="Test Cases/playground/tester" status="PASSED">
+         <system-out><![CDATA[2018-04-16 22:08:04 - [TEST_CASE][PASSED] - Test Cases/playground/tester: Test Cases/playground/tester
+
+2018-04-16 22:08:04 - [TEST_STEP][PASSED] - mainS3.portal.login: mainS3.portal.login is PASSED
+
+2018-04-16 22:08:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-16 22:08:11 - [MESSAGE][PASSED] - Navigate to 'http://bdlawlsf1.us.chs.net/lawson/portal/index.htm' successfully
+
+2018-04-16 22:08:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 22:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/1_Login/input__ssoUser' is visible
+
+2018-04-16 22:08:14 - [MESSAGE][PASSED] - Keys 'bhouglan' sent to object: 'Object Repository/mainS3/1_Login/input__ssoUser'
+
+2018-04-16 22:08:14 - [MESSAGE][PASSED] - Keys 'Ze18gna18$$$' sent to object: 'Object Repository/mainS3/1_Login/input__ssoPass'
+
+2018-04-16 22:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/1_Login/button_Login' is clicked on
+
+2018-04-16 22:08:15 - [MESSAGE][PASSED] - mainS3.portal.login is PASSED
+
+2018-04-16 22:08:15 - [TEST_STEP][PASSED] - mainS3.portal.goToForm: mainS3.portal.goToForm is PASSED
+
+2018-04-16 22:08:18 - [MESSAGE][PASSED] - Object 'Object Repository/mainS3/2_portal/input_findText' is visible
+
+2018-04-16 22:08:19 - [MESSAGE][PASSED] - Keys 'IC11.1' sent to object: 'Object Repository/mainS3/2_portal/input_findText'
+
+2018-04-16 22:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/2_portal/button_LAWMENUBTNSEARCH' is clicked on
+
+2018-04-16 22:08:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-16 22:08:19 - [MESSAGE][PASSED] - mainS3.portal.goToForm is PASSED
+
+2018-04-16 22:08:19 - [TEST_STEP][NOT_RUN] - mainS3.form.fieldSorter: NOT_RUN: mainS3.form.fieldSorter
+
+2018-04-16 22:08:19 - [MESSAGE][NOT_RUN] - NOT_RUN: mainS3.form.fieldSorter
+
+2018-04-16 22:08:19 - [TEST_STEP][NOT_RUN] - mainS3.form.fieldLocator: NOT_RUN: mainS3.form.fieldLocator
+
+2018-04-16 22:08:19 - [MESSAGE][NOT_RUN] - NOT_RUN: mainS3.form.fieldLocator
+
+2018-04-16 22:08:19 - [TEST_STEP][PASSED] - mainS3.form.populateHeaderFields: mainS3.form.populateHeaderFields is PASSED
+
+2018-04-16 22:08:51 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField'
+
+2018-04-16 22:08:51 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f68'
+
+2018-04-16 22:08:51 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-1'
+
+2018-04-16 22:08:51 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField'
+
+2018-04-16 22:08:51 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f67'
+
+2018-04-16 22:08:52 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-1'
+
+2018-04-16 22:08:52 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforLookupField inforTextbox'
+
+2018-04-16 22:08:52 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f3'
+
+2018-04-16 22:08:52 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'form'
+
+2018-04-16 22:08:52 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforTextbox'
+
+2018-04-16 22:08:52 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f226'
+
+2018-04-16 22:08:52 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'TF0-5'
+
+2018-04-16 22:08:53 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'inforTextbox'
+
+2018-04-16 22:08:53 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: '_f9'
+
+2018-04-16 22:08:53 - [MESSAGE][PASSED] - Attribute 'name' of object 'Object Repository/mainS3/3_Forms/v_main_field_selector' is: 'form'
+
+2018-04-16 22:08:53 - [MESSAGE][PASSED] - Keys 'CHS' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2018-04-16 22:08:54 - [MESSAGE][PASSED] - Keys 'I LOVE AUTOMATION' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2018-04-16 22:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/3_Forms/v_tab_button_select' is clicked on
+
+2018-04-16 22:08:55 - [MESSAGE][PASSED] - Keys '37' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2018-04-16 22:08:55 - [MESSAGE][PASSED] - Keys 'SUPL' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2018-04-16 22:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/mainS3/3_Forms/v_tab_button_select' is clicked on
+
+2018-04-16 22:08:55 - [MESSAGE][PASSED] - Keys 'AUTO' sent to object: 'Object Repository/mainS3/3_Forms/v_main_field_selector'
+
+2018-04-16 22:08:55 - [MESSAGE][PASSED] - mainS3.form.populateHeaderFields is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-16 22:08:03 - [TEST_SUITE][PASSED] - Testing: Test Cases/playground/tester]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

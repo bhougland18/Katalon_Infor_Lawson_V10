@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testing,Firefox 59.0,,2018-04-16 20:21:39,2018-04-16 20:21:57,17.846s,PASSED
+,,,,,,
+Test Cases/playground/tester,Firefox 59.0,,2018-04-16 20:21:40,2018-04-16 20:21:57,17.034s,PASSED
+mainS3.portal.login,Firefox 59.0,,2018-04-16 20:21:40,2018-04-16 20:21:53,13.448s,PASSED
+mainS3.portal.goToForm,Firefox 59.0,,2018-04-16 20:21:53,2018-04-16 20:21:56,2.916s,PASSED
+takeScreenshot,Firefox 59.0,,2018-04-16 20:21:56,2018-04-16 20:21:57,0.245s,PASSED

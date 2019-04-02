@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testing,Chrome 65.0.3325.181,,2018-04-17 20:35:59,2018-04-17 20:36:22,23.331s,FAILED
+,,,,,,
+Test Cases/playground/tester,Chrome 65.0.3325.181,,2018-04-17 20:36:00,2018-04-17 20:36:22,22.722s,FAILED
+mainS3.portal.login,Chrome 65.0.3325.181,,2018-04-17 20:36:00,2018-04-17 20:36:11,11.145s,PASSED
+mainS3.portal.goToForm,Chrome 65.0.3325.181,,2018-04-17 20:36:11,2018-04-17 20:36:22,11.177s,FAILED

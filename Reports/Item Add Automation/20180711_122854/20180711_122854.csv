@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Item Add Automation,Chrome 67.0.3396.99,Custom Automation,2018-07-11 12:28:57,2018-07-11 12:30:07,1m - 10.859s,PASSED
+,,,,,,
+Test Cases/Custom Automations/ZI11-Add,Chrome 67.0.3396.99,Add item to ZI11,2018-07-11 12:28:57,2018-07-11 12:30:07,1m - 10.382s,PASSED
+mainS3.portal.login,Chrome 67.0.3396.99,Login to Infor/Lawson - environment based upon url,2018-07-11 12:28:58,2018-07-11 12:29:33,34.764s,PASSED
+mainS3.portal.goToForm,Chrome 67.0.3396.99,Navigate to S3 form ${token},2018-07-11 12:29:33,2018-07-11 12:29:35,2.478s,PASSED
+mainS3.form.populateLineFields,Chrome 67.0.3396.99,Populate line fields with values,2018-07-11 12:29:35,2018-07-11 12:29:56,21.048s,PASSED
+mainS3.form.formActionWithStatus,Chrome 67.0.3396.99,Add new record,2018-07-11 12:29:56,2018-07-11 12:30:05,8.677s,PASSED
+mainS3.form.validateStatusMessage,Chrome 67.0.3396.99,,2018-07-11 12:30:05,2018-07-11 12:30:05,0.086s,PASSED
+takeScreenshot,Chrome 67.0.3396.99,,2018-07-11 12:30:05,2018-07-11 12:30:05,0.293s,PASSED

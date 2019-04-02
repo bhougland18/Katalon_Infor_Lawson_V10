@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Item Add Automation,Chrome 73.0.3683.86,Custom Automation,2019-04-01 16:32:54,2019-04-01 16:34:09,1m - 15.186s,FAILED
+,,,,,,
+Test Cases/Custom Automations/ZI11-Add,Chrome 73.0.3683.86,Add item to ZI11,2019-04-01 16:32:54,2019-04-01 16:34:09,1m - 14.678s,FAILED
+"mainS3.portal.login_w_errors(""http://btlawlsf.us.chs.net/lawson/portal/index.htm"", ""bhouglan"", ""Ze18gna19*"", 2)",Chrome 73.0.3683.86,,2019-04-01 16:32:55,2019-04-01 16:33:20,24.834s,PASSED
+mainS3.portal.goToForm(token),Chrome 73.0.3683.86,Navigate to S3 form ${token},2019-04-01 16:33:20,2019-04-01 16:33:23,2.648s,PASSED
+"mainS3.form.populateLineFields(""1"", [""ZIL-SRC-UOM-CONV"":""5"", ""ZIL-SRC-UOM"":""BX"", ""ZIL-STOCK-UOM"":""EA"", ""ZIL-VEN-PRICE-AMT"":""50"", ""ZIL-BUY-UOM-CONV"":""10"", ""ZIL-BUY-UOM"":""CA"", ... ], ""YES"")",Chrome 73.0.3683.86,Populate line fields with values,2019-04-01 16:33:23,2019-04-01 16:33:33,10.328s,PASSED
+"mainS3.form.formActionWithStatus(""A"")",Chrome 73.0.3683.86,Add new record,2019-04-01 16:33:33,2019-04-01 16:33:35,1.438s,PASSED
+"mainS3.form.validateStatusMessage(""Add Complete - Continue"")",Chrome 73.0.3683.86,,2019-04-01 16:33:35,2019-04-01 16:33:35,0.611s,PASSED
+"takeScreenshot(""C:\Users\Benjamin\Pictures\katalon\IC11_TEST1.png"")",Chrome 73.0.3683.86,,2019-04-01 16:33:35,2019-04-01 16:33:35,0.056s,NOT_RUN
+"mainS3.form.formActionWithStatus("""", """")",Chrome 73.0.3683.86,,2019-04-01 16:33:35,2019-04-01 16:34:07,31.493s,FAILED

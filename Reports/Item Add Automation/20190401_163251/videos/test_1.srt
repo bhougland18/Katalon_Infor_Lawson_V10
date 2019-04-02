@@ -1,0 +1,28 @@
+1
+00:00:00,601 --> 00:00:00,610
+1. mainS3.portal.login_w_errors("http://btlawlsf.us.chs.net/lawson/portal/index.htm", "bhouglan", "Ze18gna19*", 2)
+
+2
+00:00:25,440 --> 00:00:25,446
+7. Navigate to S3 form ${token}
+
+3
+00:00:28,092 --> 00:00:28,099
+13. Populate line fields with values
+
+4
+00:00:38,421 --> 00:00:38,422
+19. Add new record
+
+5
+00:00:39,859 --> 00:00:39,859
+23. mainS3.form.validateStatusMessage("Add Complete - Continue")
+
+6
+00:00:40,470 --> 00:00:40,471
+27. takeScreenshot("C:\Users\Benjamin\Pictures\katalon\IC11_TEST1.png")
+
+7
+00:00:40,526 --> 00:00:40,527
+31. mainS3.form.formActionWithStatus("", "")
+

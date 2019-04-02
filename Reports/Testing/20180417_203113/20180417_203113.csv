@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testing,Chrome 65.0.3325.181,,2018-04-17 20:31:16,2018-04-17 20:32:46,1m - 30.633s,FAILED
+,,,,,,
+Test Cases/playground/tester,Chrome 65.0.3325.181,,2018-04-17 20:31:16,2018-04-17 20:32:46,1m - 30.208s,FAILED
+mainS3.portal.login,Chrome 65.0.3325.181,,2018-04-17 20:31:16,2018-04-17 20:31:41,24.041s,PASSED
+mainS3.portal.goToForm,Chrome 65.0.3325.181,,2018-04-17 20:31:41,2018-04-17 20:31:44,3.089s,PASSED
+switchToFrame,Chrome 65.0.3325.181,,2018-04-17 20:31:44,2018-04-17 20:31:44,0.002s,NOT_RUN
+click,Chrome 65.0.3325.181,,2018-04-17 20:31:44,2018-04-17 20:31:44,0.001s,NOT_RUN
+mainS3.form.fieldLocator,Chrome 65.0.3325.181,,2018-04-17 20:31:44,2018-04-17 20:31:44,0.001s,NOT_RUN
+verifyElementAttributeValue,Chrome 65.0.3325.181,,2018-04-17 20:31:44,2018-04-17 20:31:44,0.001s,NOT_RUN
+mainS3.form.populateHeaderFields,Chrome 65.0.3325.181,,2018-04-17 20:31:44,2018-04-17 20:32:46,1m - 2.644s,FAILED

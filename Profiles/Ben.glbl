@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Ben</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>http://btlawlsf.us.chs.net/lawson/portal/</description>
+      <initValue>'http://btlawlsf.us.chs.net/lawson/portal/'</initValue>
+      <name>G_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bhouglan'</initValue>
+      <name>G_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ze18gna19*'</initValue>
+      <name>G_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Form Header Action- for button</description>
+      <initValue>''</initValue>
+      <name>G_fc_action</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Base Url - Stage Environment </description>
+      <initValue>'http://btlawlsf.us.chs.net'</initValue>
+      <name>G_url_stage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Path of directory to place screen shot - null will use Katalon internal path (default)</description>
+      <initValue>null</initValue>
+      <name>G_screen_shot_path</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

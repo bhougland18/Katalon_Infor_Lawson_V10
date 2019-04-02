@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add item to ZI11</description>
+   <name>ZI11-Add</name>
+   <tag>Item Add Automation</tag>
+   <comment></comment>
+   <testCaseGuid>b757206d-5ced-469d-b8e0-4547c04d979e</testCaseGuid>
+   <variable>
+      <defaultValue>'ZI11.1'</defaultValue>
+      <description>Lawson form</description>
+      <id>ddf1c882-5ffa-4154-8c75-dac214519b52</id>
+      <masked>false</masked>
+      <name>token</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>948c8d21-2f57-4bab-a7d5-37a077ab90f0</id>
+      <masked>false</masked>
+      <name>fc_action</name>
+   </variable>
+   <variable>
+      <defaultValue>[('a') : 'b']</defaultValue>
+      <description></description>
+      <id>a340ee20-7f92-42e5-be57-df32e6371250</id>
+      <masked>false</masked>
+      <name>field_map</name>
+   </variable>
+</TestCaseEntity>
